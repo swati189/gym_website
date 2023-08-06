@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>universe fitness</title>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body {
+        font-family: 'Baloo Bhai';
+        font-size: 22px;
+        color: antiquewhite;
+        margin: 0px;
+        padding: 0px;
+        background: url("img/pexels-leon-ardho-1552249.jpg");
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid black;*/
+            position: absolute;
+            left: 60px;
+            top: 20px;
+
+        }
+
+        .left img {
+            width: 206px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            line-height: 21px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 36%;
+            margin: 29px auto;
+            /* border: 2px solid green;*/
+
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 48px;
+            display: inline-block;
+            /*  border: 2px solid pink;*/
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: whitesmoke;
+            text-decoration: none;
+            padding: 34px 23px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai';
+            font-size: 22px;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(34, 33, 33);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 100px;
+            width: 33%;
+            border-radius: 28px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 2px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+            font-family: 'Baloo Bhai';
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 74%;
+            margin: 20px auto;
+        }
+</style>
+
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="img/yh2l46aj.png"">
+            <div>universe fitness</div>
+
+
+        </div>
+        <!--mid box for navigation-->
+        <div class=" mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"> home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+
+        </div>
+        <!--right box for buttons-->
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email us</button>
+
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>join the best gym of Mumbai now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your lacality">
+            </div>
+            <button class="btn">submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
